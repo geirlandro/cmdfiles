@@ -26,4 +26,4 @@ doskey p=cd \projects
 doskey w=cd \work
 doskey eve=cd \depot\web\main\eveonline\
 doskey dust=cd \depot\web\main\dust514\
-doskey g=git
+doskey g=git $*
