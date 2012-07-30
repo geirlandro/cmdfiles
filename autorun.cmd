@@ -19,7 +19,7 @@ REM Programs
 doskey subl="%PROGRAMFILES%\Sublime Text 2\sublime_text.exe" $*
 
 REM Start an HTTP server from a directory and open google chrome
-doskey server="%USERPROFILE%\AppData\Local\Google\Chrome\Application\chrome.exe" http://localhost:8000 $T python -m SimpleHTTPServer
+doskey server=start http://localhost:8000 $T python -m SimpleHTTPServer
 
 REM Shortcuts
 doskey p=cd \projects
